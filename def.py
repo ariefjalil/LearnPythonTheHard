@@ -1,14 +1,22 @@
 def myfirstpoem():
-
-print "Tired eyes"
-print "Sleepy eyes"
-print "Grump"
-print "...I need sleep"
+    print "tired eyes"
+    print "sleepy eyes"
+    print "i need to sleep"
 
 
 def mysecondpoem():
+    print "coffee"
+    print "Tea"
+    print "which one"
 
-print "Coffee.."
-print "Sugar or cream.."
-print "I don't drink coffee."
+def main():
+    myfirstpoem()
+    mysecondpoem()
 
+
+
+
+
+
+
+    
