@@ -27,6 +27,9 @@ target.write("%s \n %s \n %s" % (line1,line2,line3))
 
 
 
-
 print "And finally, we close it."
 target.close()
+print "Opening the file.."
+txt = open(filename)
+print txt.read()
+
