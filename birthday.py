@@ -1,29 +1,16 @@
-def birthdayemily():
-    print("Happy Birthday to you!")
-    print("Happy Birthday to you!")
-    print("Happy Birthday, dear Emily.")
-    print("Happy Birthday to you!")
+def Birthday(person): #function
+    print """
+    Happy birthday to you,
+    Happy birthday to you,
+    Happy birthday to, {}
+    Happy birthday to you. """.format(person)
 
-def birthdayandre():
-    print("Happy Birthday to you!")
-    print("Happy Birthday to you!")
-    print("Happy Birthday, dear Andre.")
-    print("Happy Birthday to you!")
+
 
 def main():
+#last two lines are outside of definitons
 
-    birthdayemily()
-    birthdayandre()
-
-
-    
-#allows program to run automatically and call the code in main,
-# which calls the code from both functions.
+    person = raw_input("Whose birthday is it today?: ")
+    Birthday(person)
 
 main()
-
-def f():
-    print" In function F"
-print"when does this print?" #outdented
-f()
-
