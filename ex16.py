@@ -30,6 +30,7 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
+print target.read()
 
 print "And finally, we close it."
 target.close()
