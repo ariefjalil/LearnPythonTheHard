@@ -1,22 +1,15 @@
-def myfirstpoem():
-    print "tired eyes"
-    print "sleepy eyes"
-    print "i need to sleep"
-
-
-def mysecondpoem():
-    print "coffee"
-    print "Tea"
-    print "which one"
+def happyBirthday(person):
+    print("Happy Birthday to you!")
+    print("Happy Birthday to you!")
+    print("Happy Birthday, dear " + person + ".")
+    print("Happy Birthday to you!")
 
 def main():
-    myfirstpoem()
-    mysecondpoem()
-
-
-
-
-
-
-
+    happyBirthday('Emily')
+    print " "
+    happyBirthday('Andre')
+    happyBirthday('Arief')
     
+
+
+main()
