@@ -23,14 +23,10 @@ line3 = raw_input("line 3: ")
 print "I'm going to write these to the file."
 
 #line character \n to type word in new line.
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write("%s \n %s \n %s" % (line1,line2,line3))
 
-print target.read()
+
+
 
 print "And finally, we close it."
 target.close()
