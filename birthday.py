@@ -14,5 +14,16 @@ def main():
 
     birthdayemily()
     birthdayandre()
+
+
+    
+#allows program to run automatically and call the code in main,
+# which calls the code from both functions.
+
 main()
+
+def f():
+    print" In function F"
+print"when does this print?" #outdented
+f()
 
