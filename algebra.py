@@ -1,5 +1,5 @@
 def sumProblem(x, y):
-    sum = x + y
+    return sum = x + y
     #sentence = 'The sum {} and {} is {}.'.format(x, y, sum)
     #print sentence
     print " The sum %r and %r is %r." % (x, y, sum)
@@ -14,9 +14,10 @@ def main():
 
 
 #anything given to raw_input is return as string. e.g c =4, d=3 = '43' and not 7
-    c = raw_input("enter an integer:")
-    d = raw_input ("enter an integer again:")
+    c = int(raw_input("enter an integer:"))
+    d = int(raw_input("enter an integer again:"))
     sumProblem(a,b)
+    
     sumProblem(c,d)
     
 
