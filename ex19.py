@@ -5,7 +5,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "Get a blanket.\n"
 
 print "We can just give the function numbers directly:"
-cheese_and_crackers(20, 30)
+cheese_and_crackers(10, 30)
 
 print "OR, we can use variables from our script:"
 amount_of_cheese = 10
@@ -20,3 +20,8 @@ cheese_and_crackers (10 + 20 , 5 + 6)
 print "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
+print "Or we can add the input ourself."
+a = int(input("Amount of cheese : "))
+b = int(input (" Amount of crackers : "))
+
+cheese_and_crackers(a, b)
