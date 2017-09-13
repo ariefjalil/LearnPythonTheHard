@@ -14,14 +14,19 @@ def divide(a,b):
     print "Dividing %d / %d" %(a,b)
     return a/b
 
+def plusminus(a,b,c):
+    print "plus minus %d + %d - %d" %(a,b,c)
+    return a+b-c
+
 print "Let's do some math with just functions!"
 
 age = add(30,5)
 height = subtract(78,4)
 weight = multiply(90,2)
 iq = divide (100,2)
+stamina =plusminus(20,10,5)
 
-print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
+print "Age: %d, Height: %d, Weight: %d, IQ: %d, Stamina: %d" % (age, height, weight, iq,stamina)
 
 # A puzzle for extra credit.
 
