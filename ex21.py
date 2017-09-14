@@ -1,6 +1,6 @@
 def add(a,b):
     print "Adding %d + %d" % (a,b)
-    return a + b
+    return a + b #Return gives something back or replies to the caller function
 
 def subtract (a,b):
     print "Subtracting %d - %d" %(a,b)
@@ -34,4 +34,7 @@ print "Here is a puzzle."
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
+what2 = age + height -weight*iq/2 #extra credit
+
 print "That becomes: ", what, "Can you do it by hand?"
+print "Value is", what2, "okay"
